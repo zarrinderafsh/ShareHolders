@@ -73,7 +73,6 @@ public class SyncAparteman {
 				task.execute();
 			}	
 			 catch (Exception e) {
-				//Toast.makeText(this.activity.getApplicationContext(), PersianReshape.reshape("عدم دسترسی به سرور"), Toast.LENGTH_SHORT).show();
 	            e.printStackTrace();
 			 }
 		}
@@ -201,30 +200,27 @@ public class SyncAparteman {
             AllFields = CuAllRecord[i].split(Pattern.quote(PV.FIELD_SPLITTER));
             if(AllFields.length > 0)
             {
-            	
-            	ImageView imgnewslogo = new ImageView(activity);
-        		imgnewslogo.setImageResource(R.drawable.logojpg);
-        		PublicFunction PF = new PublicFunction();
-        	    BitmapDrawable drawable = (BitmapDrawable) imgnewslogo.getDrawable();
-        	    
+            	int PicCode=0;
+				if(AllFields[8].toString().compareTo("0")==0)
+				{
+				}
+				else {
+					PicCode = Integer.parseInt(AllFields[8]);
+				}
             	db = dbh.getWritableDatabase();
             	db.execSQL("insert into aparteman(Code,ProjectName,Metraj,TedadeVahed,ShomareVahed,Tabaghe,Emkanat,Gheymat,pic)"+
             	" values("+AllFields[0].toString()+",'"+AllFields[1].toString()+"'," +
             			"'"+AllFields[2].toString()+"','"+AllFields[3].toString()+"','"+AllFields[4].toString()+"'," +
             			"'"+AllFields[5].toString()+"','"+AllFields[6].toString()+"'" +
-            			",'"+AllFields[7].toString()+"','"+PF.ConvertImageViewToBase64String(drawable)+"')");
+            			",'"+AllFields[7].toString()+"','"+PicCode+"')");
             	
             	if(AllFields[8].toString().compareTo("0")==0)
             	{
-            		AllFields[8] = "0";
             	}
             	else
             	{
-            		//update Buy And Sell Requests
-            		SyncApartemanPicGetImage SPGGI = new SyncApartemanPicGetImage(activity, this.PGuid,AllFields[8].toString(),AllFields[0].toString(),false);
+					SyncNewsPicGetImage SPGGI = new SyncNewsPicGetImage(activity, this.PGuid,AllFields[8].toString(),false);
         			SPGGI.AsyncExecute();
-        			//update Buy And Sell Requests
-            		//AllFields[4] = "NoPic";
             	}
             	
             }

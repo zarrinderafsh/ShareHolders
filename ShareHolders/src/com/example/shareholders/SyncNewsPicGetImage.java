@@ -29,14 +29,13 @@ public class SyncNewsPicGetImage {
 	private String PGuid;
 	private String WsResponse; 
 	private String CuImageId;
-	private String CuNewsId;
 	private boolean CuShowDialog;
+
 	//Contractor
-	public SyncNewsPicGetImage(Activity activity,String PGuid,String ImageId,String NewsId,boolean ShowDialog) {
+	public SyncNewsPicGetImage(Activity activity,String PGuid,String ImageId,boolean ShowDialog) {
 		this.activity = activity;
 		this.PGuid = PGuid;
 		this.CuImageId = ImageId;
-		this.CuNewsId = NewsId;
 		this.CuShowDialog = ShowDialog;
 		IC = new InternetConnection(this.activity.getApplicationContext());
 		PV = new PublicVariable();
@@ -69,11 +68,19 @@ public class SyncNewsPicGetImage {
 		{
 			try
 			{
+
+				db = dbh.getReadableDatabase();
+				Cursor cursors = db.rawQuery("select id from picgallery where picCode = "+CuImageId, null);
+				if(cursors.getCount() > 0)
+				{
+					return;
+				}
+				db.close();
+
 				AsyncCallWS task = new AsyncCallWS(this.activity);
 				task.execute();
 			}	
 			 catch (Exception e) {
-				//Toast.makeText(this.activity.getApplicationContext(), PersianReshape.reshape("عدم دسترسی به سرور"), Toast.LENGTH_SHORT).show();
 	            e.printStackTrace();
 			 }
 		}
@@ -112,7 +119,6 @@ public class SyncNewsPicGetImage {
         	{
 	            if(WsResponse.toString().compareTo("ER") == 0 || WsResponse.toString().compareTo("Error Authenticate") == 0 || WsResponse.toString().compareTo("Error Downloading Images") == 0)
 	            {
-	            	//Toast.makeText(this.activity.getApplicationContext(), PersianReshape.reshape("خطا در بروزرسانی عکس های اخبار"), Toast.LENGTH_LONG).show();
 	            }
 	            else
 	            {
@@ -121,7 +127,6 @@ public class SyncNewsPicGetImage {
         	}
         	else
         	{
-        		//Toast.makeText(this.activity, "خطا در اتصال به سرور", Toast.LENGTH_SHORT).show();
         	}
             try
             {
@@ -150,26 +155,9 @@ public class SyncNewsPicGetImage {
 	public void CallWsMethod(String METHOD_NAME) {
 	    //Create request
 	    SoapObject request = new SoapObject(PV.NAMESPACE, METHOD_NAME);
-	    PropertyInfo UserPI = new PropertyInfo();
-	    //Set Name
-	    UserPI.setName("pGuid");
-	    //Set Value
-	    UserPI.setValue(this.PGuid);
-	    //Set dataType
-	    UserPI.setType(String.class);
-	    //Add the property to request object
-	    request.addProperty(UserPI);
-	    
-	    PropertyInfo CodePI = new PropertyInfo();
-	    //Set Name
-	    CodePI.setName("imageId");
-	    //Set Value
-	    CodePI.setValue(Integer.valueOf(CuImageId));
-	    //Set dataType
-	    CodePI.setType(Integer.class);
-	    //Add the property to request object
-	    request.addProperty(CodePI);
-	    
+		request.addProperty(PublicFunction.GetProperty("pGuid",this.PGuid,String.class));
+		request.addProperty(PublicFunction.GetProperty("imageId",this.CuImageId,Integer.class));
+
 	    //Create envelope
 	    SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(
 	            SoapEnvelope.VER11);
@@ -195,27 +183,21 @@ public class SyncNewsPicGetImage {
 	
 	public void InsertDataFromWsToDb(String AllRecord)
     {
-        db = dbh.getWritableDatabase();
-        db.execSQL("update news set pic='"+AllRecord+"' where id="+CuNewsId);
-        
-        //db = dbh.getWritableDatabase();
-        //db.execSQL("delete from picgallery where id = "+CuNewsId);
-        
-        if(GetNewsPicFromTempTbl(CuNewsId)==0)
+        if(GetNewsPicFromTempTbl(CuImageId)==0)
         {
         	db = dbh.getWritableDatabase();
-        	db.execSQL("insert into picgallery (id,pic)  values("+CuNewsId+",'"+AllRecord+"')");
+        	db.execSQL("insert into picgallery (pic,picCode)  values('"+AllRecord+"',"+CuImageId+")");
         }
         db.close();
         dbh.close();
     }
 	
 	
-	 public int GetNewsPicFromTempTbl(String NewsId)
+	 public int GetNewsPicFromTempTbl(String PicCode)
 	 {
-		 int Res = 0;
+		    int Res = 0;
 			db = dbh.getReadableDatabase();
-			Cursor cursors = db.rawQuery("select * from picgallery where id = "+NewsId, null);
+			Cursor cursors = db.rawQuery("select id from picgallery where picCode = "+PicCode, null);
 			if(cursors.getCount() > 0)
 			{
 				Res = cursors.getCount();

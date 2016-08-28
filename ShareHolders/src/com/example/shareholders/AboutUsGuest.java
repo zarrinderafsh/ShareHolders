@@ -29,25 +29,12 @@ public class AboutUsGuest extends Activity {
 	Button BtnSave,BtnShowGoogleMapPosition;
 	ImageView AboutUsimageView1;
 	
-//	DatabaseHelper dbh;
-//	SQLiteDatabase db;
-//	
-//	String PersonGuid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.aboutusguest);
         
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-        
-//        try
-//        {
-//        	PersonGuid = getIntent().getStringExtra("PGuid").toString();
-//        }
-//        catch (Exception e) {
-//        	PersonGuid = "0000-0000-0000-0000";
-//		}
-        
         overridePendingTransition(R.drawable.activity_open_translate,R.drawable.activity_close_scale);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				 WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -106,60 +93,9 @@ public class AboutUsGuest extends Activity {
         txtAboutUsTel3.setOnClickListener(BtnOnClick);
         txtAboutUsTel4.setOnClickListener(BtnOnClick);
         BtnShowGoogleMapPosition.setOnClickListener(BtnOnClick);
-        
-//        dbh=new DatabaseHelper(getApplicationContext());
-//		try {
-//
-//			dbh.createDataBase();
-//
-//   		} catch (IOException ioe) {
-//
-//   			throw new Error("Unable to create database");
-//
-//   		}
-//
-//   		try {
-//
-//   			dbh.openDataBase();
-//
-//   		} catch (SQLException sqle) {
-//
-//   			throw sqle;
-//
-//   		}
-//   		
-//   		FillData();
-        
+
     }
-    
-//    private void FillData()
-//	{
-//		
-//		db = dbh.getReadableDatabase();
-//		Cursor cursors = db.rawQuery("select * from aboutus order by id desc", null);
-//
-//		if(cursors.getCount() > 0)
-//		{
-//			String title,pic;
-//			cursors.moveToNext();
-//			title = cursors.getString(cursors.getColumnIndex("title"));
-//			pic = cursors.getString(cursors.getColumnIndex("pic"));
-//			txtAboutUsTitleFromDb.setText(title);
-//			
-//			try
-//			{
-//				byte[] decodedByte = Base64.decode(pic, Base64.DEFAULT);
-//				Bitmap Bmp = BitmapFactory.decodeByteArray(decodedByte, 0, decodedByte.length);
-//				AboutUsimageView1.setImageBitmap(Bmp);
-//			}
-//			catch (Exception e) {
-//				e.printStackTrace();
-//			}
-//			
-//		}
-//
-//	}
-    
+
     private OnClickListener BtnOnClick = new OnClickListener() {
 		
 		@Override

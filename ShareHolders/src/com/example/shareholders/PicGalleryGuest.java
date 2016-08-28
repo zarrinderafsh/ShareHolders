@@ -174,7 +174,7 @@ public class PicGalleryGuest extends Activity {
 				pic = cursors.getString(cursors.getColumnIndex("pic"));
 				String FinalPic = "";
 				PublicFunction PF = new PublicFunction();
-				if(GetNewsPicFromTempTbl(id).compareTo("0")==0)
+				if(GetNewsPicFromTempTbl(pic).compareTo("0")==0)
 				{
 					Drawable myDrawable = getResources().getDrawable(R.drawable.logojpg);
 					BitmapDrawable myLogo = (BitmapDrawable) myDrawable;
@@ -182,7 +182,7 @@ public class PicGalleryGuest extends Activity {
 				}
 				else
 				{
-					FinalPic=GetNewsPicFromTempTbl(id);
+					FinalPic=GetNewsPicFromTempTbl(pic);
 				}
 				
 				PicIdArray[i] = FinalPic;
@@ -204,7 +204,7 @@ public class PicGalleryGuest extends Activity {
 		{
 	    	String Res = "0";
 			db = dbh.getReadableDatabase();
-			Cursor cursors = db.rawQuery("select * from picgallerylvl2pic where id = "+NewsId, null);
+			Cursor cursors = db.rawQuery("select * from picgallery where picCode = "+NewsId, null);
 			if(cursors.getCount() > 0)
 			{
 				cursors.moveToNext();

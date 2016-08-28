@@ -107,7 +107,7 @@ public class ShowApartemanPlan extends Activity {
 	public void LoadPic()
 	{
 		db = dbh.getReadableDatabase();
-   		Cursor cursors = db.rawQuery("select pic from aparteman where Code = "+ApId, null);
+   		Cursor cursors = db.rawQuery("select (select pic from picgallery where picCode=aparteman.pic) pic from aparteman where Code = "+ApId, null);
 
    		if(cursors.getCount() > 0)
    		{

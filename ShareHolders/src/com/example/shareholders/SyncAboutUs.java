@@ -199,22 +199,11 @@ public class SyncAboutUs {
             {
             	try
             	{
-            		//if(AllFields[2].toString().compareTo("NoPic")==0)
-            		//{
             			db = dbh.getWritableDatabase();
             			db.execSQL("insert into aboutus(title) values('"+AllFields[1].toString()+"')");
-            		//}
-            		//else
-            		//{
-            			//db = dbh.getWritableDatabase();
-            		//	db.execSQL("insert into aboutus(title,pic) values('"+AllFields[1].toString()+"','"+AllFields[2].toString()+"')");
-            			
-            			//update Buy And Sell Requests
+
             			SyncAboutUsPicGetImage SPGGI = new SyncAboutUsPicGetImage(activity, this.PGuid,AllFields[2].toString(),false);
             			SPGGI.AsyncExecute();
-            			//update Buy And Sell Requests
-            			
-            		//}
             	}
             	catch (Exception e) {
 					e.printStackTrace();

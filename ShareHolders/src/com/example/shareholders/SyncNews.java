@@ -73,7 +73,6 @@ public class SyncNews {
 				task.execute();
 			}	
 			 catch (Exception e) {
-				//Toast.makeText(this.activity.getApplicationContext(), PersianReshape.reshape("عدم دسترسی به سرور"), Toast.LENGTH_SHORT).show();
 	            e.printStackTrace();
 			 }
 		}
@@ -112,13 +111,12 @@ public class SyncNews {
         	{
 	            if(WsResponse.toString().compareTo("ER") == 0)
 	            {
-	            	//Toast.makeText(this.activity.getApplicationContext(), PersianReshape.reshape("خطا در بروزرسانی اخبار و اطلاعیه ها"), Toast.LENGTH_LONG).show();
 	            }
 	            else if(WsResponse.toString().compareTo("Nothing") == 0)
 	            {
-	            	db = dbh.getWritableDatabase();
-	                db.execSQL("delete from news");
-	            	WsResponse = "Nothing";
+//	            	db = dbh.getWritableDatabase();
+//	                db.execSQL("delete from news");
+//	            	WsResponse = "Nothing";
 	            }
 	            else
 	            {
@@ -127,7 +125,6 @@ public class SyncNews {
         	}
         	else
         	{
-        		//Toast.makeText(this.activity, "خطا در اتصال به سرور", Toast.LENGTH_SHORT).show();
         	}
             try
             {
@@ -156,16 +153,10 @@ public class SyncNews {
 	public void CallWsMethod(String METHOD_NAME) {
 	    //Create request
 	    SoapObject request = new SoapObject(PV.NAMESPACE, METHOD_NAME);
-	    PropertyInfo UserPI = new PropertyInfo();
-	    //Set Name
-	    UserPI.setName("pGuid");
-	    //Set Value
-	    UserPI.setValue(this.PGuid);
-	    //Set dataType
-	    UserPI.setType(String.class);
-	    //Add the property to request object
-	    request.addProperty(UserPI);
-	    //Create envelope
+		request.addProperty(PublicFunction.GetProperty("pGuid",this.PGuid,String.class));
+		request.addProperty(PublicFunction.GetProperty("LastId",0,Integer.class));
+
+		//Create envelope
 	    SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(
 	            SoapEnvelope.VER11);
 	    envelope.dotNet = true;
@@ -201,26 +192,21 @@ public class SyncNews {
             AllFields = CuAllRecord[i].split(Pattern.quote(PV.FIELD_SPLITTER));
             if(AllFields.length > 0)
             {
-            	
-        		ImageView imgnewslogo = new ImageView(activity);
-        		imgnewslogo.setImageResource(R.drawable.logojpg);
-        		PublicFunction PF = new PublicFunction();
-        	    BitmapDrawable drawable = (BitmapDrawable) imgnewslogo.getDrawable();
-        	    
+				Integer PicCode = 0;
+				if(AllFields[4].toString().compareTo("NoPic")==0)
+				{
+					PicCode = 0;
+				}
+				else {
+					PicCode = Integer.parseInt(AllFields[4].toString());
+				}
             	db = dbh.getWritableDatabase();
             	db.execSQL("insert into news(id,title,description,sDate,pic)"+
-            	" values("+AllFields[0].toString()+",'"+AllFields[1].toString()+"','"+AllFields[2].toString()+"','"+AllFields[3].toString()+"','"+PF.ConvertImageViewToBase64String(drawable)+"')");
-            	if(AllFields[4].toString().compareTo("NoPic")==0)
+            	" values("+AllFields[0].toString()+",'"+AllFields[1].toString()+"','"+AllFields[2].toString()+"','"+AllFields[3].toString()+"','"+PicCode+"')");
+            	if(PicCode > 0)
             	{
-            		AllFields[4] = "NoPic";
-            	}
-            	else
-            	{
-            		//update Buy And Sell Requests
-            		SyncNewsPicGetImage SPGGI = new SyncNewsPicGetImage(activity, this.PGuid,AllFields[4].toString(),AllFields[0].toString(),false);
+            		SyncNewsPicGetImage SPGGI = new SyncNewsPicGetImage(activity, this.PGuid,AllFields[4].toString(),false);
         			SPGGI.AsyncExecute();
-        			//update Buy And Sell Requests
-            		//AllFields[4] = "NoPic";
             	}
             }
         }

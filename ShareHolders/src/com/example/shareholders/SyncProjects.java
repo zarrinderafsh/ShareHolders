@@ -201,27 +201,28 @@ public class SyncProjects {
             AllFields = CuAllRecord[i].split(Pattern.quote(PV.FIELD_SPLITTER));
             if(AllFields.length > 0)
             {
-            	
-        		ImageView imgnewslogo = new ImageView(activity);
-        		imgnewslogo.setImageResource(R.drawable.logojpg);
-        		PublicFunction PF = new PublicFunction();
-        	    BitmapDrawable drawable = (BitmapDrawable) imgnewslogo.getDrawable();
-        	    
+
+				int PicCode=0;
+				if(AllFields[4].toString().compareTo("0")==0)
+				{
+				}
+				else {
+					PicCode = Integer.parseInt(AllFields[4].toString());
+				}
+
             	db = dbh.getWritableDatabase();
             	db.execSQL("insert into projects(id,title,description,sDate,pic)"+
-            	" values("+AllFields[0].toString()+",'"+AllFields[1].toString()+"','"+AllFields[2].toString()+"','"+AllFields[3].toString()+"','"+PF.ConvertImageViewToBase64String(drawable)+"')");
+            	" values("+AllFields[0].toString()+",'"+AllFields[1].toString()
+						+"','"+AllFields[2].toString()+"','"+AllFields[3].toString()
+						+"','"+PicCode+"')");
             	
             	if(AllFields[4].toString().compareTo("0")==0)
             	{
-            		AllFields[4] = "0";
             	}
             	else
             	{
-            		//update Buy And Sell Requests
-            		SyncProjectsPicGetImage SPGGI = new SyncProjectsPicGetImage(activity, this.PGuid,AllFields[4].toString(),AllFields[0].toString(),false);
+            		SyncNewsPicGetImage SPGGI = new SyncNewsPicGetImage(activity, this.PGuid,AllFields[4].toString(),false);
         			SPGGI.AsyncExecute();
-        			//update Buy And Sell Requests
-            		//AllFields[4] = "NoPic";
             	}
             	
             }

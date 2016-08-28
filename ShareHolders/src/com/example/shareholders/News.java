@@ -107,7 +107,7 @@ public class News extends Activity {
 		DataLList = new ArrayList<HashMap<String, String>>();
 		
 		db = dbh.getReadableDatabase();
-		Cursor cursors = db.rawQuery("select * from news order by sDate desc", null);
+		Cursor cursors = db.rawQuery("select id,title,sdate,description,pic from news order by sDate desc", null);
 
 		if(cursors.getCount() > 0)
 		{
@@ -119,21 +119,13 @@ public class News extends Activity {
 				id = cursors.getString(cursors.getColumnIndex("id"));
 				title = cursors.getString(cursors.getColumnIndex("title"));
 				sDate = cursors.getString(cursors.getColumnIndex("sDate"));
-				pic = cursors.getString(cursors.getColumnIndex("pic"));
 				dicription = cursors.getString(cursors.getColumnIndex("description"));
+				pic = cursors.getString(cursors.getColumnIndex("pic"));
 				map.put("id", id);
 				map.put("title", title);
 				map.put("sDate", sDate);
-//				if(pic.length() > 20)
-//				{
-//					map.put("pic", pic);
-//					map.put("pic2", pic);
-//				}
-//				else
-//				{
-					map.put("pic", GetNewsPicFromTempTbl(id));
-					map.put("pic2", GetNewsPicFromTempTbl(id));
-				//}
+				map.put("pic", GetNewsPicFromTempTbl(pic));
+				map.put("pic2", GetNewsPicFromTempTbl(pic));
 				map.put("dicription", dicription);
 				map.put("PGuid", PersonGuid);
 				DataLList.add(map);
@@ -154,7 +146,7 @@ public class News extends Activity {
 	{
     	String Res = "0";
 		db = dbh.getReadableDatabase();
-		Cursor cursors = db.rawQuery("select * from picgallery where id = "+NewsId, null);
+		Cursor cursors = db.rawQuery("select * from picgallery where picCode = "+NewsId, null);
 		if(cursors.getCount() > 0)
 		{
 			cursors.moveToNext();

@@ -126,7 +126,7 @@ public class PicGallery extends Activity {
 				pic = cursors.getString(cursors.getColumnIndex("pic"));
 				map.put("id", id);
 				map.put("title", title);
-				map.put("pic", GetNewsPicFromTempTbl(id));
+				map.put("pic", GetNewsPicFromTempTbl(pic));
 				map.put("PGuid", PersonGuid);
 				DataLList.add(map);
 	
@@ -147,7 +147,7 @@ public class PicGallery extends Activity {
 	{
     	String Res = "0";
 		db = dbh.getReadableDatabase();
-		Cursor cursors = db.rawQuery("select * from picgallerylvl1pic where id = "+NewsId, null);
+		Cursor cursors = db.rawQuery("select * from picgallery where picCode = "+NewsId, null);
 		if(cursors.getCount() > 0)
 		{
 			cursors.moveToNext();

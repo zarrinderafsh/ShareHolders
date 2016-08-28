@@ -97,11 +97,7 @@ public class Aparteman extends Activity {
 			// TODO: handle exception
         	tabs.setCurrentTab(0);
 		}
-        
-      //  tabs.getTabWidget().getChildAt(0).setBackgroundColor(Color.parseColor("#4cc131"));
-//        tabs.getTabWidget().getChildAt(1).setBackgroundColor(Color.RED);
-        
-        
+
         lst_data=(ListView)findViewById(R.id.apartemanlistView1);
         dbh=new DatabaseHelper(getApplicationContext());
 		try {
@@ -187,7 +183,6 @@ public class Aparteman extends Activity {
    		}
    		else
    		{
-   			//Toast.makeText(getApplicationContext(), PersianReshape.reshape("اطلاعات سوابق موجود نمی باشد ، لطفا بروزرسانی کنید"), Toast.LENGTH_LONG).show();
    		}
 
    	}

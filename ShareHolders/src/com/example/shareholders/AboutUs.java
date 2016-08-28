@@ -150,7 +150,7 @@ public class AboutUs extends Activity {
 	{
 		
 		db = dbh.getReadableDatabase();
-		Cursor cursors = db.rawQuery("select * from aboutus order by id desc", null);
+		Cursor cursors = db.rawQuery("select title,(select pic from picgallery where picCode=aboutus.pic) pic from aboutus order by id desc", null);
 
 		if(cursors.getCount() > 0)
 		{

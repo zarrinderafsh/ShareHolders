@@ -205,28 +205,25 @@ public class SyncPicGalleryLvl1 {
             AllFields = CuAllRecord[i].split(Pattern.quote(PV.FIELD_SPLITTER));
             if(AllFields.length > 0)
             {
-            	
-            	ImageView imgnewslogo = new ImageView(activity);
-        		imgnewslogo.setImageResource(R.drawable.logojpg);
-        		PublicFunction PF = new PublicFunction();
-        	    BitmapDrawable drawable = (BitmapDrawable) imgnewslogo.getDrawable();
-        	    
+				int PicCode=0;
+				if(AllFields[2].toString().compareTo("0")==0)
+				{
+				}
+				else {
+					PicCode = Integer.parseInt(AllFields[2].toString());
+				}
             	db = dbh.getWritableDatabase();
             	db.execSQL("insert into picgallerylvl1(Code,Name,ArchiveCode,pic)"+
             	" values("+AllFields[0].toString()+",'"+AllFields[1].toString()+"'," +
-            			"'"+AllFields[2].toString()+"','"+PF.ConvertImageViewToBase64String(drawable)+"')");
+            			"'"+AllFields[2].toString()+"','"+PicCode+"')");
             	
             	if(AllFields[2].toString().compareTo("0")==0)
             	{
-            		AllFields[2] = "0";
             	}
             	else
             	{
-            		//update Buy And Sell Requests
-            		SyncPicGalleryLvl1GetImage SPGGI = new SyncPicGalleryLvl1GetImage(activity, this.PGuid,AllFields[2].toString(),AllFields[0].toString(),false);
+					SyncNewsPicGetImage SPGGI = new SyncNewsPicGetImage(activity, this.PGuid,AllFields[2].toString(),false);
         			SPGGI.AsyncExecute();
-        			//update Buy And Sell Requests
-            		//AllFields[4] = "NoPic";
             	}
             	
             }

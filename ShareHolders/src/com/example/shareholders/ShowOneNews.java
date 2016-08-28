@@ -158,7 +158,7 @@ public class ShowOneNews extends Activity {
 //			{
 				try
 				{
-					byte[] decodedByte = Base64.decode(GetNewsPicFromTempTbl(Id), Base64.DEFAULT);
+					byte[] decodedByte = Base64.decode(GetNewsPicFromTempTbl(pic), Base64.DEFAULT);
 					Bitmap Bmp = BitmapFactory.decodeByteArray(decodedByte, 0, decodedByte.length);
 					OneNewsImg.setImageBitmap(Bmp);
 				}
@@ -180,7 +180,7 @@ public class ShowOneNews extends Activity {
 	{
     	String Res = "0";
 		db = dbh.getReadableDatabase();
-		Cursor cursors = db.rawQuery("select * from picgallery where id = "+NewsId, null);
+		Cursor cursors = db.rawQuery("select * from picgallery where picCode = "+NewsId, null);
 		if(cursors.getCount() > 0)
 		{
 			cursors.moveToNext();

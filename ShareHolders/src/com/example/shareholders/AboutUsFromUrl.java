@@ -71,16 +71,7 @@ public class AboutUsFromUrl extends Activity {
 		
 		
         btnPageTitle = (TextView)findViewById(R.id.aboutuspagetitle);
-        
-        
-      //  BtnShowGoogleMapPosition = (Button)findViewById(R.id.BtnShowGoogleMapPosition);
-        
-     //   BtnShowGoogleMapPosition.setTypeface(FontMitra);
         btnPageTitle.setTypeface(FontMitra);
-        
-
-      //  BtnShowGoogleMapPosition.setOnClickListener(BtnOnClick);
-        
     }
 	
 	
@@ -96,34 +87,7 @@ public class AboutUsFromUrl extends Activity {
 		this.progress.setProgress(progress);		
 	}
 	
-	
-//	 private OnClickListener BtnOnClick = new OnClickListener() {
-//			
-//			@Override
-//			public void onClick(View arg0) {
-//				// TODO Auto-generated method stub
-//				
-//			    if(arg0.getId()==BtnShowGoogleMapPosition.getId())
-//				{
-//					if(IC.isConnectingToInternet()==true)
-//					{
-//						if(BackActivity.compareTo("Guest")==0)
-//				    	{
-//							LoadActivity(GoogleMapPositionGuest.class, "PGuid", PersonGuid);
-//				    	}
-//						else
-//						{
-//							LoadActivity(GoogleMapPosition.class, "PGuid", PersonGuid);
-//						}
-//					}
-//					else
-//					{
-//						Toast.makeText(getApplicationContext(), PersianReshape.reshape("شما به اینترنت دسترسی ندارید"), Toast.LENGTH_SHORT).show();
-//					}
-//				}
-//			}
-//		};
-	    
+
 	    @Override
 		  protected void onPause()
 		  {
