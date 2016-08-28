@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/backgroundrep" >
+    
+    <LinearLayout
+        android:id="@+id/HeadMenu"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#3b90b2"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1" >
+	        
+           <Button
+                android:id="@+id/btntopleftlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="#3b90b2"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:drawableRight="@drawable/elahiyetopleftlogo"
+                android:layout_marginLeft="3dp"/>
+            
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/sharessaleandbuypagetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="درخواست خرید و فروش"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp" />
+	        
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+    
+    <TabHost
+			android:id="@+id/tabhost"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_below="@+id/HeadMenu">
+			    <LinearLayout
+				    android:orientation="vertical"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent">
+				        <TabWidget android:id="@android:id/tabs"
+					        android:layout_width="fill_parent"
+					        android:layout_height="60dp"/>
+					            <FrameLayout android:id="@android:id/tabcontent"
+					            android:layout_width="fill_parent"
+					            android:layout_height="fill_parent">
+					            
+					                <FrameLayout android:layout_width="fill_parent"
+					                android:layout_height="fill_parent"
+					                android:id="@+id/tab3">
+
+					                    <LinearLayout
+										            android:layout_width="match_parent"
+										            android:layout_height="match_parent"
+										            android:orientation="vertical"
+										            android:gravity="center_vertical" >
+										            
+					                        <TextView
+                android:id="@+id/textRegisterSellRequestTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ثبت درخواست فروش سهام"
+                android:textColor="#ff0000"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="gravity"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+										            
+					                        
+					                        <TextView 
+  					    android:id="@+id/txtwarning_Sale_sell"
+                        style="@style/textView"
+                        android:text="@string/warning_buy_sell"
+                        android:textColor="#000"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:lineSpacingExtra="16dp"/>
+                    
+	                <TextView
+	                    android:id="@+id/txtSaletoday_price"
+	                    style="@style/textView"
+	                    android:text="قیمت سهام"
+	                    android:textColor="#000"
+	                    android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp" />
+	                
+	                <TextView
+                    android:id="@+id/txtSalePrice"
+                    style="@style/textView"
+                    android:textColor="#000"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+                    
+                    <EditText
+                        style="@style/textEdit"
+                        android:id="@+id/txtSaleCount"
+                        android:hint="تعداد سهم جهت فروش"
+                        android:background="@drawable/rounded_textbox"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="gravity"
+                        android:layout_marginTop="10dp"
+                        android:inputType="number">
+        
+   <requestFocus />
+                    </EditText>
+                    
+                    
+                    <Button 
+					    android:id="@+id/BtnSendSalerequests" 
+					    android:layout_width="match_parent" 
+					    android:layout_height="40dp"
+					    android:text="ثبت درخواست"
+					    android:textSize="20sp"
+					    android:layout_marginTop="10dp"
+					    android:textColor="#000"
+					    android:background="@drawable/red_rounded_button"
+					    android:layout_marginRight="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:onClick="clickHandler">
+					</Button>
+												     
+									     </LinearLayout>
+								     </FrameLayout>
+					                
+					                <FrameLayout android:layout_width="fill_parent"
+					                android:layout_height="fill_parent"
+					                android:id="@+id/tab2">
+
+					                    <LinearLayout
+										            android:layout_width="match_parent"
+										            android:layout_height="match_parent"
+										            android:orientation="vertical"
+										            android:gravity="center_vertical" >
+                    
+					                        <TextView
+                android:id="@+id/textRegisterBuyRequestTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ثبت درخواست خرید سهام"
+                android:textColor="#4cc131"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="gravity"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+  					<TextView 
+  					    android:id="@+id/txtwarning_buy_sell"
+                        style="@style/textView"
+                        android:text="@string/warning_buy_sell"
+                        android:textColor="#000"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:lineSpacingExtra="16dp"/>
+                    
+	                <TextView
+	                    android:id="@+id/txtBuytoday_price"
+	                    style="@style/textView"
+	                    android:text="قیمت سهام"
+	                    android:textColor="#000"
+	                    android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp" />
+	                
+	                <TextView
+                    android:id="@+id/txtBuyPrice"
+                    style="@style/textView"
+                    android:textColor="#000"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+                    
+                    <EditText
+                        style="@style/textEdit"
+                        android:id="@+id/txtBuyCount"
+                        android:hint="تعداد سهم جهت خرید"
+                        android:background="@drawable/rounded_textbox"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="gravity"
+                        android:layout_marginTop="10dp"
+                        android:inputType="number">
+
+                        <requestFocus />
+                    </EditText>
+                    
+                    <Button 
+					    android:id="@+id/BtnSendBuyrequests" 
+					    android:layout_width="match_parent" 
+					    android:layout_height="40dp"
+					    android:text="ثبت درخواست"
+					    android:textSize="20sp"
+					    android:layout_marginTop="10dp"
+					    android:textColor="#000"
+					    android:background="@drawable/green_rounded_button"
+					    android:layout_marginRight="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:onClick="clickHandler">
+					</Button>
+												     
+									     </LinearLayout>
+								     </FrameLayout>
+												   
+							        <FrameLayout android:layout_width="fill_parent"
+							        android:layout_height="fill_parent"
+							        android:id="@+id/tab1">
+							         	
+										<LinearLayout
+								            android:layout_width="match_parent"
+								            android:layout_height="match_parent"
+								            android:orientation="vertical"
+								            android:gravity="center_vertical" >
+	         
+										<ListView
+									        android:id="@+id/listView1"
+									        android:layout_width="fill_parent"
+									        android:layout_height="wrap_content"
+									        android:layout_below="@id/HeadMenu"
+									        android:layout_marginTop="10dp"
+									        android:layout_marginRight="30dp"
+									        android:layout_marginLeft="30dp" >
+									    </ListView>
+									  
+								    	 </LinearLayout>
+							        </FrameLayout>
+				    			</FrameLayout>
+			</LinearLayout>
+	</TabHost>
+</RelativeLayout>

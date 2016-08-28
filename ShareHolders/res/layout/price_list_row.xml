@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btnbackgroundstyle"
+    android:orientation="horizontal"
+    android:padding="5dip"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="10.0sp" 
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:textColor="#000"
+        android:textSize="18dip"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:layout_marginTop="5dp"
+        android:lineSpacingExtra="15dp" />
+
+</RelativeLayout>

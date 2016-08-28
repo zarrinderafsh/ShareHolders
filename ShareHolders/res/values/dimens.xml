@@ -1,0 +1,39 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <dimen name="font_size">20sp</dimen>
+    
+    <dimen name="header_font_size">20sp</dimen>
+    
+    <dimen name="button_font_size">14sp</dimen>
+    <dimen name="button_padding_top_bottom">10dp</dimen>
+    <dimen name="button_padding_left_right">20dp</dimen>
+    <dimen name="button_margin_right">20dp</dimen>
+    <dimen name="button_margin_top">10dp</dimen>
+    
+    <dimen name="toolButton_font_size">14sp</dimen>
+    <dimen name="toolButton_padding_top_bottom">5dp</dimen>
+    <dimen name="toolButton_padding_left_right">10dp</dimen>
+
+    <dimen name="toolbar_padding">10dp</dimen>
+    
+    <dimen name="menu_button_padding_top_bottom">10dp</dimen>
+    <dimen name="menu_button_padding_left_right">5dp</dimen>
+    <dimen name="menu_button_layout_margin">5dp</dimen>
+    <dimen name="menu_button_text_size">20dp</dimen>
+    
+    <dimen name="listview_text_row_margin_top">10dp</dimen>
+    <dimen name="listview_text_row_padding">10dp</dimen>
+    <dimen name="listview_text_text_size">14sp</dimen>
+    <dimen name="listview_margin_top">10dp</dimen>
+
+    <dimen name="listview_button_text_size">10dp</dimen>
+    <dimen name="listview_delete_height">40dp</dimen>
+    <dimen name="listview_delete_width">40dp</dimen>
+</resources>

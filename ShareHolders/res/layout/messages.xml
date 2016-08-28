@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/backgroundrep" >
+    
+    <LinearLayout
+        android:id="@+id/HeadMenu"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#3b90b2"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1" >
+	        
+			<Button
+                android:id="@+id/btntopleftlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="#3b90b2"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:drawableRight="@drawable/elahiyetopleftlogo"
+                android:layout_marginLeft="3dp"/>
+            
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/messagespagetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="پیام ها"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp" />
+	        
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+     <TabHost
+			android:id="@+id/tabhost"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_below="@+id/HeadMenu">
+			    <LinearLayout
+				    android:orientation="vertical"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent">
+				        <TabWidget android:id="@android:id/tabs"
+					        android:layout_width="fill_parent"
+					        android:layout_height="60dp"/>
+					            <FrameLayout android:id="@android:id/tabcontent"
+					            android:layout_width="fill_parent"
+					            android:layout_height="fill_parent">
+					            
+					                <FrameLayout android:layout_width="fill_parent"
+					                android:layout_height="fill_parent"
+					                android:id="@+id/tab3">
+
+					                    <LinearLayout
+										            android:layout_width="match_parent"
+										            android:layout_height="match_parent"
+										            android:orientation="vertical"
+										            android:gravity="center_vertical" >
+        
+								<ListView
+							        android:id="@+id/listViewInBoxN"
+							        android:layout_width="fill_parent"
+							        android:layout_height="wrap_content"
+							        android:layout_marginTop="10dp"
+							        android:layout_marginRight="30dp"
+							        android:layout_marginLeft="30dp" >
+							    </ListView>
+												     
+									     </LinearLayout>
+								     </FrameLayout>
+					                
+					                <FrameLayout android:layout_width="fill_parent"
+					                android:layout_height="fill_parent"
+					                android:id="@+id/tab2">
+
+					                    <LinearLayout
+										            android:layout_width="match_parent"
+										            android:layout_height="match_parent"
+										            android:orientation="vertical"
+										            android:gravity="center_vertical" >
+        
+							<ListView
+							        android:id="@+id/listViewSendBox"
+							        android:layout_width="fill_parent"
+							        android:layout_height="wrap_content"
+							        android:layout_marginTop="10dp"
+							        android:layout_marginRight="30dp"
+							        android:layout_marginLeft="30dp" >
+							    </ListView>
+												     
+									     </LinearLayout>
+								     </FrameLayout>
+												   
+							        <FrameLayout android:layout_width="fill_parent"
+							        android:layout_height="fill_parent"
+							        android:id="@+id/tab1">
+							         	
+										<LinearLayout
+								            android:layout_width="match_parent"
+								            android:layout_height="match_parent"
+								            android:orientation="vertical"
+								            android:gravity="center_vertical" >
+	         
+							    
+										    <TextView
+                        style="@style/textView"
+                        android:text="@string/send_to"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#000"
+                        android:id="@+id/messageSendToLable"/>
+
+                    <Spinner
+                        android:id="@+id/lstLawyers"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawSelectorOnTop="true"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp" />
+
+
+                    <EditText
+                        android:id="@+id/txtTitlem"
+                        style="@style/textEdit"
+                        android:hint="عنوان پیام"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="gravity">
+
+                        <requestFocus />
+                    </EditText>
+
+        
+
+                    <EditText
+                        android:id="@+id/txtBodym"
+                        style="@style/textEdit"
+                        android:lines="4"
+                        android:hint="شرح پیام"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="gravity">
+
+                        <requestFocus />
+                    </EditText>
+                    
+                    <Button 
+					    android:id="@+id/BtnSendMessage" 
+					    android:layout_width="match_parent" 
+					    android:layout_height="40dp"
+					    android:text="ارسال پیام"
+					    android:textSize="20sp"
+					    android:layout_marginTop="10dp"
+					    android:textColor="#000"
+					    android:background="@drawable/rounded_button"
+					    android:layout_marginRight="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:onClick="clickHandler">
+					</Button>
+										    
+										    
+										    
+								    	 </LinearLayout>
+							        </FrameLayout>
+							        
+							        
+							        <FrameLayout android:layout_width="fill_parent"
+							        android:layout_height="fill_parent"
+							        android:id="@+id/tab4">
+							         	
+										<LinearLayout
+								            android:layout_width="match_parent"
+								            android:layout_height="match_parent"
+								            android:orientation="vertical"
+								            android:gravity="center_vertical" >
+
+                    <EditText
+                        android:id="@+id/txtTitlemEnteghadVaPishnahad"
+                        style="@style/textEdit"
+                        android:hint="عنوان انتقاد یا پیشنهاد"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="gravity">
+
+                        <requestFocus />
+                    </EditText>
+
+        
+
+                    <EditText
+                        android:id="@+id/txtBodymEnteghadVaPishnahad"
+                        style="@style/textEdit"
+                        android:lines="4"
+                        android:hint="شرح انتقاد یا پیشنهاد"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="gravity">
+
+                        <requestFocus />
+                    </EditText>
+                    
+                    <Button 
+					    android:id="@+id/BtnSendEnteghadVaPishnahad" 
+					    android:layout_width="match_parent" 
+					    android:layout_height="40dp"
+					    android:text="ارسال"
+					    android:textSize="20sp"
+					    android:layout_marginTop="10dp"
+					    android:textColor="#000"
+					    android:background="@drawable/rounded_button"
+					    android:layout_marginRight="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:onClick="clickHandler">
+					</Button>
+										    
+										    
+										    
+								    	 </LinearLayout>
+							        </FrameLayout>
+							        
+							        
+							        							        <FrameLayout android:layout_width="fill_parent"
+							        android:layout_height="fill_parent"
+							        android:id="@+id/tab5">
+							         	
+										<LinearLayout
+								            android:layout_width="match_parent"
+								            android:layout_height="match_parent"
+								            android:orientation="vertical"
+								            android:gravity="center_vertical" > 
+								            
+										    <Spinner
+                        android:id="@+id/lstAllLawyers"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawSelectorOnTop="true"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp" />
+
+                    <EditText
+                        android:id="@+id/txtBodymLawyerMess"
+                        style="@style/textEdit"
+                        android:lines="4"
+                        android:hint="شرح SMS"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:textAlignment="gravity">
+
+                        <requestFocus />
+                    </EditText>
+                    
+                    <Button 
+					    android:id="@+id/BtnSendLawyerMess" 
+					    android:layout_width="match_parent" 
+					    android:layout_height="40dp"
+					    android:text="ارسال SMS به وکیل"
+					    android:textSize="20sp"
+					    android:layout_marginTop="10dp"
+					    android:textColor="#000"
+					    android:background="@drawable/rounded_button"
+					    android:layout_marginRight="60dp"
+                        android:layout_marginLeft="60dp"
+                        android:onClick="clickHandler">
+					</Button>
+										    
+										    
+										    
+								    	 </LinearLayout>
+							        </FrameLayout>
+							        
+							        
+				    			</FrameLayout>
+			</LinearLayout>
+	</TabHost>
+</RelativeLayout>

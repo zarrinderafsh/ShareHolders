@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#A37B45</color>
+    <color name="button">#EF8222</color>
+    <color name="button_text">#000</color>
+    <color name="textbox_background">#FFFFC6</color>
+    <color name="textbox_color">#080863</color>
+    <color name="label_color">#FFBE63</color>
+    <color name="zebra_header">#E88313</color>
+    <color name="zebra_odd">#F9D88A</color>
+    <color name="zebra_even">#F5C149</color>
+    
+    <color name="lime">#8CBF26</color>
+    <color name="brown">#A05000</color>
+    <color name="pink">#E671B8</color>
+    <color name="magenta">#FF0097</color>
+    <color name="oldpurple">#A200FF</color>
+    <color name="oldteal">#00ABA9</color>
+    <color name="oldorange">#F09609</color>
+    <color name="oldblue">#1BA1E2</color>
+    <color name="oldred">#E51400</color>
+    <color name="oldgreen">#339933</color>
+    
+    <color name="teal">#008299</color>
+    <color name="teal_hover">#00A0B1</color>
+    <color name="dark_purple">#5133AB</color>
+    <color name="dark_purple_hover">#643EBF</color>
+    <color name="orange">#D24726</color>
+    <color name="orange_hover">#DC572E</color>
+    <color name="bright_orange">#F8B756</color>
+    
+    <color name="blue">#2672EC</color>
+    <color name="blue_hover">#2E8DEF</color>
+    <color name="skyblue">#094AB2</color>
+    <color name="skyblue:hover">#0A5BC4</color>
+    <color name="red">#AC193D</color>
+    <color name="red_hover">#BF1E4B</color>
+    <color name="green">#008A00</color>
+    <color name="green_hover">#00A600</color>
+    <color name="yellow">#e8be1b</color>
+    <color name="yellow_hover">#f7d240</color>
+    <color name="white">#fff</color>
+    
+    <color name="tran">#80f7d240</color>
+    <color name="pencil">#33343C</color>   
+    <color name="light_brown">#A37B45</color>   
+    <color name="green1">#86942A</color>   
+    <color name="green2">#507642</color>   
+    <color name="brown1">#453823</color>   
+    <color name="brown2">#BD8024</color>   
+    
+    
+</resources>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundrep" >
+    
+    <LinearLayout
+        style="@style/linearVertical"
+        android:gravity="top"
+        android:layout_gravity="top">
+    
+    <LinearLayout
+        android:id="@+id/HeadMenu"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#3b90b2"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1" >
+        
+            <Button
+                android:id="@+id/btntopleftlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="#3b90b2"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:drawableRight="@drawable/elahiyetopleftlogo"
+                android:layout_marginLeft="3dp"/>
+            
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/aboutuspagetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="درباره ما"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp" />
+	        
+        </LinearLayout>
+    </LinearLayout> 
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/HeadMenu" >
+        
+        
+        <ImageView
+        android:id="@+id/AboutUsimageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_horizontal" />
+        
+    <TextView
+        android:id="@+id/txtAboutUsTitleFromDb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+
+    <TextView
+        android:id="@+id/txtAboutUsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="شرکت آباداني و مسکن الهيه خراسان"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="مشهد - بزرگراه ميثاق - بلوار الهيه - ميدان وليعصر "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsPostalCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="صندوق پستي : 1379-91895"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsPostalCode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="پست الکترونیک : info@elahiye.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsTel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="تلفن : 5313610-0511"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsTel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsTel1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="تلفن : 5313611-0511"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsTel3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsTel2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="تلفن : 5313612-0511"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsTel4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsTel3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="تلفن : 5313613-0511"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsFax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsTel4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="نمابر : 5313615-0511"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsWebSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsFax"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="وب سایت : www.elahiye.com"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutUsSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutUsWebSite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="پیامک : 30009900000531"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <Button 
+	    android:id="@+id/BtnShowGoogleMapPosition" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:text="موقعیت روی نقشه گوگل"
+	    android:textSize="20sp"
+	    android:layout_marginTop="10dp"
+	    android:textColor="#000"
+	    android:background="@drawable/rounded_button"
+	    android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="10dp"
+        android:drawableRight="@drawable/googlemapsicon">
+	</Button>
+	
+    </LinearLayout>
+    
+    </LinearLayout>
+
+</ScrollView>

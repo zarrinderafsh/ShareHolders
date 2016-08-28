@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"     
+    android:background="@drawable/backgroundrep" >
+    
+    <LinearLayout
+        android:id="@+id/HeadMenu"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#3b90b2"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1" >
+        
+            <Button
+                android:id="@+id/btntopleftlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="#3b90b2"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:drawableRight="@drawable/elahiyetopleftlogo"
+                android:layout_marginLeft="3dp"/>
+            
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/lastpricepagetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="آخرین تغییرات قیمت"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp" />
+	        
+        </LinearLayout>
+    </LinearLayout>
+    
+    <TabHost
+			android:id="@+id/tabhost"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_below="@+id/HeadMenu">
+			    <LinearLayout
+				    android:orientation="vertical"
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent">
+				        <TabWidget android:id="@android:id/tabs"
+					        android:layout_width="fill_parent"
+					        android:layout_height="60dp"/>
+					            <FrameLayout android:id="@android:id/tabcontent"
+					            android:layout_width="fill_parent"
+					            android:layout_height="fill_parent">
+					            
+					                <FrameLayout android:layout_width="fill_parent"
+					                android:layout_height="fill_parent"
+					                android:id="@+id/tab2">
+
+					                    <LinearLayout
+										            android:layout_width="match_parent"
+										            android:layout_height="match_parent"
+										            android:orientation="vertical"
+										            android:gravity="center_vertical" >
+    
+									    <ListView
+									        android:id="@+id/listView1"
+									        android:layout_width="fill_parent"
+									        android:layout_height="wrap_content"
+									        android:layout_marginTop="10dp"
+									        android:layout_marginRight="30dp"
+									        android:layout_marginLeft="30dp" >
+									    </ListView>
+									    
+									    </LinearLayout>
+									    
+									 </FrameLayout>
+									 <FrameLayout android:layout_width="fill_parent"
+						                	android:layout_height="fill_parent"
+						                	android:id="@+id/tab1">
+					                    
+									     <LinearLayout
+										            android:layout_width="match_parent"
+										            android:layout_height="match_parent"
+										            android:orientation="vertical"
+										            android:gravity="center_vertical" >
+					                    
+									     <ListView
+									        android:id="@+id/listViewBenefit"
+									        android:layout_width="fill_parent"
+									        android:layout_height="wrap_content"
+									        android:layout_marginTop="10dp"
+									        android:layout_marginRight="30dp"
+									        android:layout_marginLeft="30dp" >
+									    </ListView>
+									    
+									     </LinearLayout>
+									     
+					                 </FrameLayout>
+								</FrameLayout>
+	          </LinearLayout>
+	</TabHost>
+
+</RelativeLayout>

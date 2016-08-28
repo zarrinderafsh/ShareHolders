@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/MnuExitApp"
+        android:title="خروج" 
+        style="@+Style/OPMENUFONTSIZE" android:icon="@drawable/quit"></item>
+    <item android:id="@+id/MnuAboutOwner"
+        android:title="درباره سازنده" 
+        style="@+Style/OPMENUFONTSIZE" android:icon="@drawable/tsiplogosmall"></item>
+    <item android:id="@+id/MnuAppMenu"
+        android:title="فهرست اصلی" 
+        style="@+Style/OPMENUFONTSIZE" android:icon="@drawable/news"></item>
+</menu>

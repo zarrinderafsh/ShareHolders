@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    android:background="@drawable/backgroundrep">
+        
+           <ImageView
+                android:id="@+id/LogoScreenIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logosmall"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textVSoftTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LogoScreenIcon"
+                android:text="نرم افزار ویژه سهامداران - بخش مهمان"
+                android:textColor="#000"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+     
+    <ScrollView
+    	android:layout_width="match_parent"
+		android:layout_gravity="center_vertical"
+		android:layout_height="match_parent"
+		android:layout_below="@+id/textVSoftTitle"
+		android:padding="0dp"
+		android:layout_margin="0dp">
+    
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:orientation="vertical"
+            android:padding="0dp"
+			android:layout_margin="0dp" >
+			
+           <LinearLayout
+			style="@style/appMenuRows">
+
+            <Button
+                style="@style/appMenuButton"
+                android:id="@+id/btnNews"
+                android:background="#f01904"
+                android:drawableTop="@drawable/news"
+                android:text="@string/news"/>
+
+            <Button
+                style="@style/appMenuButton"
+                android:id="@+id/btnLawyerInfo"
+                android:background="#3e00dd"
+                android:drawableTop="@drawable/lawyer"
+                android:text="سهام"/>
+            
+        </LinearLayout>
+
+        <LinearLayout
+			style="@style/appMenuRows">
+
+            <Button
+                style="@style/appMenuButton"
+                android:id="@+id/btnProjects"
+                android:background="#2d89ef"
+                android:drawableTop="@drawable/instructor"
+                android:text="پروژه ها"/>
+
+            <Button
+                style="@style/appMenuButton"
+                android:id="@+id/btnPicGallery"
+                android:background="#8c0095"
+                android:drawableTop="@drawable/gallery"
+                android:text="گالری تصاویر"/>
+        </LinearLayout>
+        
+        <LinearLayout
+			style="@style/appMenuRows">
+            
+           
+            
+            <Button
+                style="@style/appMenuButton"
+                android:id="@+id/btnExit"
+                android:background="#53c305"
+                android:drawableTop="@drawable/sync"
+                android:text="بروزرسانی"/>
+            
+             
+             
+             <Button
+                style="@style/appMenuButton"
+                android:id="@+id/btnAboutUs"
+                android:background="#dc572e"
+                android:drawableTop="@drawable/anoutus"
+                android:text="درباره ما"/>
+             
+        </LinearLayout>
+        <TextView
+                android:id="@+id/textVSoftVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نگارش 2.2.3\nتهیه شده در امور رایانه شرکت آبادانی و مسکن الهیه خراسان\nwww.elahiye.com"
+                android:textColor="#000"
+                android:gravity="center"
+                android:textAlignment="gravity"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="3dp" />
+    </LinearLayout>
+    
+
+</ScrollView>
+</RelativeLayout>

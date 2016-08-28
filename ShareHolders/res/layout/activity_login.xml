@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/backgroundrep" >
+    
+        <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical" >
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:gravity="bottom"
+            android:background="@drawable/blue_login_corner_redus"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp" >
+                
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/login_corner_redus"
+            android:layout_marginLeft="20dp" >
+            
+            <ImageView
+                android:id="@+id/LockScreenIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textVSoftTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نرم افزار ویژه سهامداران"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textAlignment="gravity"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp" >
+                 
+                <EditText 
+                    android:id="@+id/EditTextUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:background="@drawable/login_rounded_textbox"
+                    android:drawableLeft="@drawable/usernameicon"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="gravity"
+                    android:hint="نام کاربری"
+                    android:inputType="number"
+                    android:nextFocusDown="@+id/EditTextPassword"></EditText>
+                
+                
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp" >
+                 
+                <EditText 
+                    android:id="@+id/EditTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:background="@drawable/login_rounded_textbox"
+                    android:drawableLeft="@drawable/passwordlogin"
+                    android:gravity="center_horizontal"
+                    android:textAlignment="gravity"
+                    android:hint="رمز عبور"
+                    android:inputType="numberPassword"
+                    android:nextFocusDown="@+id/BtnLogin"></EditText>
+                 
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="5dp" >
+                 
+				<Button 
+				    android:id="@+id/BtnLogin" 
+				    android:layout_width="match_parent" 
+				    android:layout_height="40dp"
+				    android:text="ورود"
+				    android:textSize="20sp"
+				    android:textColor="#000"
+				    android:background="@drawable/login_rounded_button">
+				    
+				    <requestFocus />
+				</Button>                
+                
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="20dp" >
+                 
+				<Button 
+				    android:id="@+id/BtnGuestLogin" 
+				    android:layout_width="match_parent" 
+				    android:layout_height="40dp"
+				    android:text="ورود مهمان"
+				    android:textSize="20sp"
+				    android:textColor="#000"
+				    android:background="@drawable/login_rounded_button"
+				    >
+				    
+				    <requestFocus />
+				</Button>                
+                
+            </RelativeLayout>
+            
+            </LinearLayout>
+            
+            </LinearLayout>
+            
+            <TextView
+                android:id="@+id/textVSoftVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نگارش 2.2.3"
+                android:textColor="#000"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginLeft="10dp" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundrep" >
+    
+    <LinearLayout
+        android:id="@+id/HeadMenu"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#3b90b2"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="left"
+        android:layout_gravity="left"
+        android:layout_weight="1" >
+        
+            <Button
+                android:id="@+id/btntopleftlogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:background="#3b90b2"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:drawableRight="@drawable/elahiyetopleftlogo"
+                android:layout_marginLeft="3dp"/>
+            
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/aboutownerpagetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="درباره سازنده"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="3dp" />
+	        
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/linearVertical"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/HeadMenu">
+        
+          <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tsiplogo"
+        android:layout_gravity="center_horizontal" />
+    
+    <TextView
+        android:id="@+id/txtAboutOwnerTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="شرکت طراحان سامانه ایده پویا"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+
+  
+    
+    <TextView
+        android:id="@+id/txtAboutOwnerAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutOwnerTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="مشهد - میدان تختی - بین صاحب الزمان 4 و 6 - پلاک 105 "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutOwnerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutOwnerAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="پست الکترونیک : info@tsip.ir"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutOwnerTel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutOwnerEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="تلفن : 09155073669"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    <TextView
+        android:id="@+id/txtAboutOwnerWebSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAboutOwnerTel1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="وب سایت : www.tsip.ir"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0000ff"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity" />
+    
+    </LinearLayout>
+
+</RelativeLayout>

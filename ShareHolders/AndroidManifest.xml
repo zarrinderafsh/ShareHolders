@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shareholders"
+    android:versionCode="1"
+    android:versionName="2.2.3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" android:required="true"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.example.shareholders.Login"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.AboutUsFromUrl"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.AppMenu"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.AppMenuGuest"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.FinancialInfo"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.LastPeices"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.Messages"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.News"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.Aparteman"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.Ground"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+         <activity 
+            android:name="com.example.shareholders.Projects"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.PersonalInfo"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.SharesSalesAndBuy"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+         <activity 
+            android:name="com.example.shareholders.ShowOneNews"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.ShowApartemanPlan"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true"
+            android:screenOrientation="landscape">
+        </activity>
+         <activity 
+            android:name="com.example.shareholders.ShowOneProjects"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.AboutUsGuest"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.PicGallery"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.PicGalleryGuest"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.GoogleMapPosition"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.GoogleMapPositionGuest"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.AboutOwner"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.ShowOneMessage"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <activity 
+            android:name="com.example.shareholders.ChangePass"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:noHistory="true">
+        </activity>
+        <receiver android:name=".MyAlarmManager" />
+         <receiver android:name=".BootAlarmManager" >
+            <intent-filter>
+            	<action android:name="android.intent.action.BOOT_COMPLETED"/>
+        	</intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

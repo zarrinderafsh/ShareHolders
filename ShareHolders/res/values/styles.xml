@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="appMenuButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingBottom">@dimen/menu_button_padding_top_bottom</item>
+        <item name="android:paddingLeft">@dimen/menu_button_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/menu_button_padding_left_right</item>
+        <item name="android:paddingTop">@dimen/menu_button_padding_top_bottom</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:onClick">clickHandler</item>
+        <item name="android:textSize">@dimen/menu_button_text_size</item>
+        <item name="android:layout_margin">@dimen/menu_button_layout_margin</item>
+    </style>
+
+    <style name="appMenuRows">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="linearVertical">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="linearHorizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="textView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/font_size</item>
+    </style>
+
+    <style name="toolbarRow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">right</item>
+        <item name="android:padding">@dimen/toolbar_padding</item>
+    </style>
+
+    <style name="headerRow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/brown1</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="headerText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/yellow_hover</item>
+        <item name="android:textSize">@dimen/header_font_size</item>
+    </style>
+
+    <style name="listViwTextRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginTop">@dimen/listview_text_row_margin_top</item>
+        <item name="android:background">@color/brown2</item>
+        <item name="android:gravity">right</item>
+        <item name="android:padding">@dimen/listview_text_row_padding</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="listViwTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dark_purple</item>
+        <item name="android:textSize">@dimen/listview_text_text_size</item>
+    </style>
+
+    <style name="listViwButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dark_purple</item>
+        <item name="android:textSize">@dimen/listview_text_text_size</item>
+    </style>
+
+    <style name="listViwDeleteButton">
+        <item name="android:layout_width">@dimen/listview_delete_width</item>
+        <item name="android:layout_height">@dimen/listview_delete_height</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">@dimen/listview_button_text_size</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="textEdit">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/textbox_color</item>
+        <item name="android:textSize">@dimen/font_size</item>
+        <item name="android:background">@drawable/rounded_textbox</item>
+    </style>
+
+    <style name="listView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/listview_margin_top</item>
+    </style>
+
+    <style name="mainContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <!--
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        -->
+        <item name="android:background">@color/light_brown</item>
+    </style>
+
+    <style name="button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">clickHandler</item>
+        <item name="android:paddingTop">@dimen/button_padding_top_bottom</item>
+        <item name="android:paddingRight">@dimen/button_padding_left_right</item>
+        <item name="android:paddingBottom">@dimen/button_padding_top_bottom</item>
+        <item name="android:paddingLeft">@dimen/button_padding_left_right</item>
+        <item name="android:layout_marginRight">@dimen/button_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:textSize">@dimen/button_font_size</item>
+    </style>
+
+    <style name="toolButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/toolButton_padding_top_bottom</item>
+        <item name="android:paddingRight">@dimen/toolButton_padding_left_right</item>
+        <item name="android:paddingBottom">@dimen/toolButton_padding_top_bottom</item>
+        <item name="android:paddingLeft">@dimen/toolButton_padding_left_right</item>
+        <item name="android:onClick">clickHandler</item>
+        <item name="android:textSize">@dimen/toolButton_font_size</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+</resources>
