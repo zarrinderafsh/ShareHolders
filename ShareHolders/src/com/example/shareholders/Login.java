@@ -296,8 +296,6 @@ public class Login extends Activity {
 	            {
 	            	try
 	           		{
-	        	   		SyncMessageUnReadIsNotificationAll SMUINA = new SyncMessageUnReadIsNotificationAll(getApplicationContext());
-	        	   		SMUINA.AsyncExecute();
 	           		}
 	           		catch (Exception e) {
 	        			e.printStackTrace();

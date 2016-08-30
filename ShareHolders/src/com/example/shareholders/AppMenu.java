@@ -161,8 +161,6 @@ public class AppMenu extends Activity {
    		
    		try
    		{
-	   		SyncMessageUnReadIsNotificationAll SMUINA = new SyncMessageUnReadIsNotificationAll(getApplicationContext());
-	   		SMUINA.AsyncExecute();
    		}
    		catch (Exception e) {
 			e.printStackTrace();
@@ -253,14 +251,10 @@ public class AppMenu extends Activity {
    		if(cursors.getCount() > 0)
    		{
    			cursors.moveToNext();
-   			//Toast.makeText(getApplicationContext(), "شما "+cursors.getString(cursors.getColumnIndex("title"))+" پیام خوانده نشده دارید", Toast.LENGTH_LONG).show();
-   			//NotificationClass.Notificationm(getApplicationContext(), "پیام جدید از طرف الهیه", "سهامدار عزیز شما "+cursors.getString(cursors.getColumnIndex("title"))+" پیام جدید در نرم افزار سهامداری شرکت الهیه خراسان دارید", "a");
-   			btnMessages.setText(Html.fromHtml("<b>"+String.valueOf(cursors.getCount() - 1) + " " + "پیام جدید"+"</b>"));
+   			btnMessages.setText(Html.fromHtml("<b>"+String.valueOf(cursors.getCount()) + " " + "پیام جدید"+"</b>"));
    			btnMessages.setTextColor(Color.RED);
-   			
-   			//db = dbh.getWritableDatabase();
-        	//db.execSQL("delete from messages where type = '100'");
    		}
+		dbGetMessageUnread.close();
     }
     
     public void LoadAnimationMenuItem()

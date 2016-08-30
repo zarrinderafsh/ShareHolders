@@ -466,7 +466,7 @@ public class PersonalInfo extends Activity {
  
         @Override
         protected void onPostExecute(Void result) {
-            if(WsResault.compareTo("1")==0)
+            if(WsResault!=null && WsResault.compareTo("1")==0)
             {
             	Toast.makeText(getApplicationContext(), PersianReshape.reshape("درخواست شما با موفقیت ثبت شد"), Toast.LENGTH_LONG).show();
 				//update Personal Image

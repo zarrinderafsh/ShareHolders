@@ -151,7 +151,6 @@ public class SyncMessageUnRead {
         	String result = null;
         	try
         	{
-        		//Toast.makeText(CuContext, "Call Method - Get Message Unread With Guid", Toast.LENGTH_SHORT).show();
         		CallWsMethod("GetCountMessageUnread");
         	}
 	    	catch (Exception e) {
@@ -166,15 +165,12 @@ public class SyncMessageUnRead {
         	{
 	            if(WsResponse.toString().compareTo("ER") != 0)
 	            {
-	            	//Toast.makeText(CuContext, "Repose - Get Message Unread With Guid" + WsResponse.toString(), Toast.LENGTH_SHORT).show();
 	            	if(Integer.valueOf(WsResponse.toString())>0)
 	            	{
-	            		//SyncMessageInboxUnReadData SMIUR = new SyncMessageInboxUnReadData(CuContext);
-		            	//SMIUR.AsyncExecute();
 	            		try
 		           		{
-		        	   		SyncMessageUnReadIsNotificationAll SMUINA = new SyncMessageUnReadIsNotificationAll(CuContext);
-		        	   		SMUINA.AsyncExecute();
+							SyncMessageInboxUnReadData S = new SyncMessageInboxUnReadData(CuContext);
+							S.AsyncExecute();
 		           		}
 		           		catch (Exception e) {
 		        			e.printStackTrace();

@@ -278,20 +278,9 @@ public class SyncMessageInbox {
         
         if(NewNewMessCount > 0)
         {
-        	
-        	db = dbh.getWritableDatabase();
-        	db.execSQL("delete from messages where type='100'");
-        	
-//        	for(int j = 0 ; j < Ekhtelaf ; j++)
-//        	{
-//        		db = dbh.getWritableDatabase();
-//            	db.execSQL("update messages set sent = 1 where id = " + String.valueOf(MessageId[j]));
-//        	}
-        	
         	db = dbh.getWritableDatabase();
         	db.execSQL("insert into messages(id,senderId,receiverId,SenderName,sDate,type,title,body,openned,sent)"+
         	" values(10001,0,0,'0','0','100','"+String.valueOf(NewNewMessCount)+"','0','0',0)");
-        	
         }
         
         if(CuLoadActivityAfterExecute)

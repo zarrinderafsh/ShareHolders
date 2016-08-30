@@ -149,7 +149,6 @@ public class SyncMessageInboxUnReadData {
         	String result = null;
         	try
         	{
-        		//Toast.makeText(CuContext, "Call Method - Get Message Unread With Guid", Toast.LENGTH_SHORT).show();
         		CallWsMethod("GetMessagesInboxWithUserName");
         	}
 	    	catch (Exception e) {
@@ -164,7 +163,6 @@ public class SyncMessageInboxUnReadData {
         	{
 	            if(WsResponse.toString().compareTo("ER") == 0)
 	            {
-	            	//Toast.makeText(this.activity.getApplicationContext(), PersianReshape.reshape("خطا در بروزرسانی اخبار و اطلاعیه ها"), Toast.LENGTH_LONG).show();
 	            }
 	            else if(WsResponse.toString().compareTo("Nothing") == 0)
 	            {
@@ -226,9 +224,6 @@ public class SyncMessageInboxUnReadData {
 	
 	public void InsertDataFromWsToDb(String AllRecord)
     {
-        db = dbh.getWritableDatabase();
-        db.execSQL("delete from messages  where type = '1'");
-        
         String[] CuAllRecord = AllRecord.split(Pattern.quote(PV.RECORD_SPLITTER));
         int[] MessageId = new int[CuAllRecord.length + 100];
         String[] AllFields;   
