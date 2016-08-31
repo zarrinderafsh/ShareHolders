@@ -119,7 +119,7 @@ public class SyncGroundRequest {
 	            	WsResponse = "Nothing";
 	            	if(CuLoadActivityAfterExecute)
 	        		{
-	        			LoadActivity(Aparteman.class, "PGuid", PGuid);
+	        			LoadActivity(Ground.class, "PGuid", PGuid);
 	        		}
 	            }
 	            else
