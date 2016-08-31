@@ -109,7 +109,7 @@
                 android:id="@+id/textVSoftVersion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="نگارش 2.2.3\nتهیه شده در امور رایانه شرکت آبادانی و مسکن الهیه خراسان\nwww.elahiye.com"
+                android:text="نگارش 2.3.1\nتهیه شده در امور رایانه شرکت آبادانی و مسکن الهیه خراسان\nwww.elahiye.com"
                 android:textColor="#000"
                 android:gravity="center"
                 android:textAlignment="gravity"

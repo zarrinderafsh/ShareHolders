@@ -159,7 +159,7 @@
                 android:id="@+id/textVSoftVersion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="نگارش 2.2.3"
+                android:text="نگارش 2.3.1"
                 android:textColor="#000"
                 android:gravity="left"
                 android:textAlignment="gravity"
