@@ -115,8 +115,8 @@ public class SyncMessageSendbox {
 	            }
 	            else if(WsResponse.toString().compareTo("Nothing") == 0)
 	            {
-	            	db = dbh.getWritableDatabase();
-	                db.execSQL("delete from messages where type = '2'");
+	            	//db = dbh.getWritableDatabase();
+	                //db.execSQL("delete from messages where type = '2'");
 	            	WsResponse = "Nothing";
 	            }
 	            else
@@ -189,8 +189,8 @@ public class SyncMessageSendbox {
 	
 	public void InsertDataFromWsToDb(String AllRecord)
     {
-        db = dbh.getWritableDatabase();
-        db.execSQL("delete from messages where type = '2'");
+        //db = dbh.getWritableDatabase();
+        //db.execSQL("delete from messages where type = '2'");
         
         String[] CuAllRecord = AllRecord.split(Pattern.quote(PV.RECORD_SPLITTER));
         
