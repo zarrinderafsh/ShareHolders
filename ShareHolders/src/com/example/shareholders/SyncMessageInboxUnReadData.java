@@ -166,8 +166,8 @@ public class SyncMessageInboxUnReadData {
 	            }
 	            else if(WsResponse.toString().compareTo("Nothing") == 0)
 	            {
-	            	db = dbh.getWritableDatabase();
-	                db.execSQL("delete from messages  where type = '1'");
+	            	//db = dbh.getWritableDatabase();
+	                //db.execSQL("delete from messages  where type = '1'");
 	            	WsResponse = "Nothing";
 	            }
 	            else
