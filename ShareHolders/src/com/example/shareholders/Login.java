@@ -88,7 +88,6 @@ public class Login extends Activity {
         textVSoftTitle.setTypeface(FontMitra);
         textVSoftVersion.setTypeface(FontMitra);
         BtnGuestLogin.setTypeface(FontMitra);
-        
         BtnLogin.setOnClickListener(BtnLoginOnClick);
         BtnGuestLogin.setOnClickListener(BtnGuestLoginOnClick);
         
@@ -647,6 +646,24 @@ public class Login extends Activity {
 	}
 	
 	public void CallWsMethodLogin(String METHOD_NAME) {
+
+		String UserName = "";
+		db = dbh.getReadableDatabase();
+		Cursor cursors = db.rawQuery("select * from settings where name='UserName'", null);
+		if(cursors.getCount() > 0)
+		{
+			cursors.moveToNext();
+			UserName = cursors.getString(cursors.getColumnIndex("value"));
+		}
+		String OldUserName = EdUserName.getText().toString();
+		Integer i1,i2;
+		i1 = Integer.valueOf(OldUserName);
+		i2 = Integer.valueOf(UserName);
+
+		if(UserName.length() > 0 && (i1+1) != (i2+1)) {
+			Toast.makeText(getApplicationContext(), "شما نمی توانید با این نام کاربری وارد شوید. در صورت نیاز نرم افزار را پاک و دوباره نصب کنید", Toast.LENGTH_SHORT).show();
+			return;
+		}
 		PublicVariable PV = new PublicVariable();
 	    //Create request
 	    SoapObject request = new SoapObject(PV.NAMESPACE, METHOD_NAME);

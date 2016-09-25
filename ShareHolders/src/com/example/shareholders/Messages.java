@@ -657,7 +657,7 @@ public class Messages extends Activity {
     
     private void FillDataSendbox()
    	{
-   		
+
    		db = dbh.getReadableDatabase();
    		Cursor cursors = db.rawQuery("select id,senderId,receiverId,SenderName,sDate,type,title,body,openned,sent from messages where type=2 order by id desc", null);
 
