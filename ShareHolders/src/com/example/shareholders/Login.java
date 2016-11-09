@@ -81,8 +81,8 @@ public class Login extends Activity {
         BtnGuestLogin = (Button)findViewById(R.id.BtnGuestLogin);
         textVSoftTitle = (TextView)findViewById(R.id.textVSoftTitle);
         textVSoftVersion= (TextView)findViewById(R.id.textVSoftVersion);
-        
-        EdUserName.setTypeface(FontMitra);
+
+		EdUserName.setTypeface(FontMitra);
         EdPassword.setTypeface(FontMitra);
         BtnLogin.setTypeface(FontMitra);
         textVSoftTitle.setTypeface(FontMitra);
@@ -106,6 +106,18 @@ public class Login extends Activity {
    		try {
 
    			dbh.openDataBase();
+
+			String UserName = "";
+			db = dbh.getReadableDatabase();
+			Cursor cursors = db.rawQuery("select * from settings where name='UserName'", null);
+			if(cursors.getCount() > 0) {
+				cursors.moveToNext();
+				UserName = cursors.getString(cursors.getColumnIndex("value"));
+				EdUserName.setText(UserName);
+				EdPassword.setFocusable(true);
+				EdPassword.setText("");
+				EdPassword.requestFocus();
+			}
 
    		} catch (SQLException sqle) {
 
@@ -647,22 +659,27 @@ public class Login extends Activity {
 	
 	public void CallWsMethodLogin(String METHOD_NAME) {
 
-		String UserName = "";
+		String UserName = "0";
 		db = dbh.getReadableDatabase();
 		Cursor cursors = db.rawQuery("select * from settings where name='UserName'", null);
-		if(cursors.getCount() > 0)
-		{
+		if(cursors.getCount() > 0) {
 			cursors.moveToNext();
 			UserName = cursors.getString(cursors.getColumnIndex("value"));
-		}
-		String OldUserName = EdUserName.getText().toString();
-		Integer i1,i2;
-		i1 = Integer.valueOf(OldUserName);
-		i2 = Integer.valueOf(UserName);
 
-		if(UserName.length() > 0 && (i1+1) != (i2+1)) {
-			Toast.makeText(getApplicationContext(), "شما نمی توانید با این نام کاربری وارد شوید. در صورت نیاز نرم افزار را پاک و دوباره نصب کنید", Toast.LENGTH_SHORT).show();
-			return;
+			String OldUserName = EdUserName.getText().toString();
+			Integer i1, i2;
+			i1 = Integer.valueOf(OldUserName) + 1;
+			i2 = Integer.valueOf(UserName) + 1;
+
+			if (UserName.length() > 0 && (i1 + 1) != (i2 + 1)) {
+				runOnUiThread(new Runnable() {
+								  public void run() {
+									  Toast.makeText(getApplicationContext(), "شما نمی توانید با این نام کاربری وارد شوید. در صورت نیاز نرم افزار را پاک و دوباره نصب کنید", Toast.LENGTH_SHORT).show();
+								  }
+							  }
+				);
+				return;
+			}
 		}
 		PublicVariable PV = new PublicVariable();
 	    //Create request
