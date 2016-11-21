@@ -100,8 +100,10 @@
                     android:textAlignment="gravity"
                     android:hint="رمز عبور"
                     android:inputType="numberPassword"
-                    android:nextFocusDown="@+id/BtnLogin"></EditText>
-                 
+                    android:nextFocusDown="@+id/BtnLogin"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+                </EditText>
             </RelativeLayout>
             
             <RelativeLayout

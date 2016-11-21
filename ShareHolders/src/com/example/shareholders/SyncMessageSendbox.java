@@ -14,6 +14,7 @@ import android.R.bool;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
@@ -185,8 +186,22 @@ public class SyncMessageSendbox {
 	    	e.printStackTrace();
 	    }
 	}
-	
-	
+
+
+	public boolean CheckID(int id)
+	{
+		SQLiteDatabase db1 = dbh.getReadableDatabase();
+		Cursor cursors = db1.rawQuery("select [id] from messages where [id]="+id, null);
+		if(cursors.getCount() > 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
 	public void InsertDataFromWsToDb(String AllRecord)
     {
         //db = dbh.getWritableDatabase();
@@ -194,18 +209,25 @@ public class SyncMessageSendbox {
         
         String[] CuAllRecord = AllRecord.split(Pattern.quote(PV.RECORD_SPLITTER));
         
-        String[] AllFields;        
+        String[] AllFields;
+		db = dbh.getWritableDatabase();
         for(int i = 0 ; i < CuAllRecord.length;i++)
         {
             AllFields = CuAllRecord[i].split(Pattern.quote(PV.FIELD_SPLITTER));
-            if(AllFields.length > 0)
-            {
-            	db = dbh.getWritableDatabase();
-            	db.execSQL("insert into messages(id,senderId,receiverId,SenderName,sDate,type,title,body)"+
-            	" values("+AllFields[0].toString()+","+AllFields[1].toString()+","+AllFields[2].toString()+
-            	",'"+AllFields[3].toString()+"','"+AllFields[4].toString()+
-            	"','2','"+AllFields[6].toString()+"','"+AllFields[7].toString()+"')");
-            }
+			try {
+				if (AllFields.length > 0 && !CheckID(Integer.parseInt(AllFields[0]))) {
+					db.execSQL("insert into messages([id],senderId,receiverId,SenderName,sDate,type,title,body)" +
+							" values(" + AllFields[0].toString() + "," + AllFields[1].toString() + "," + AllFields[2].toString() +
+							",'" + AllFields[3].toString() + "','" + AllFields[4].toString() +
+							"','2','" + AllFields[6].toString() + "','" + AllFields[7].toString() + "')");
+				}
+			}
+			catch (SQLException ex)
+			{
+				String S =	ex.getMessage();
+				S+="sssssssssssss";
+
+			}
         }
         
         if(CuLoadActivityAfterExecute)

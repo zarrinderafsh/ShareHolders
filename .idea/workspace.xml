@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f6a95e70-862a-4cfb-b879-e49435cb5d3d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/key.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/key1.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/key2.jks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/ShareHolders.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/ShareHolders.unaligned.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutOwner$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutOwner$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutOwner$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutOwner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUs$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUs$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUs$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUs.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUsFromUrl$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUsFromUrl$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUsFromUrl$MyWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUsFromUrl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUsGuest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUsGuest$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUsGuest$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AboutUsGuest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Aparteman$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Aparteman$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Aparteman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ApartemanAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ApartemanAdapter$2$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ApartemanAdapter$2$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ApartemanAdapter$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ApartemanAdapter$AsyncCallWSSendCancelRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ApartemanAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ApartemanAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AppMenu$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AppMenu$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AppMenu$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AppMenu$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AppMenu.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AppMenuGuest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AppMenuGuest$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AppMenuGuest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AprGroRequestAdapter$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AprGroRequestAdapter$1$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AprGroRequestAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AprGroRequestAdapter$AsyncCallWSSendCancelRequestN.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AprGroRequestAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/AprGroRequestAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/BenefitsAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/BenefitsAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/BenefitsAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/BootAlarmManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ChangePass$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ChangePass$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ChangePass$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ChangePass$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ChangePass$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ChangePass$AsyncCallWSendChangePassToWs.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ChangePass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/DatabaseHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/FinancialInfo$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/FinancialInfo$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/FinancialInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/FinancialsAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/FinancialsAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/FinancialsAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GoogleMapPosition$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GoogleMapPosition$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GoogleMapPosition$AsyncCallLoadGoogleMap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GoogleMapPosition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GoogleMapPositionGuest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GoogleMapPositionGuest$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GoogleMapPositionGuest$AsyncCallLoadGoogleMap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GoogleMapPositionGuest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Ground$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Ground$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Ground.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GroundAdapter$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GroundAdapter$1$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GroundAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GroundAdapter$AsyncCallWSSendCancelRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GroundAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/GroundAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/InternetConnection.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/JustifiedTextView$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/JustifiedTextView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/LastPeices$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/LastPeices$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/LastPeices.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/LastPriceAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/LastPriceAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/LastPriceAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Login$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Login$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Login$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Login$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Login$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Login$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Login$AsyncCallWSLogin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Login.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageInboxAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageInboxAdapter$2$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageInboxAdapter$2$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageInboxAdapter$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageInboxAdapter$AsyncCallWSSendCancelRequestN.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageInboxAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageInboxAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageSendboxAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageSendboxAdapter$2$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageSendboxAdapter$2$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageSendboxAdapter$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageSendboxAdapter$AsyncCallWSSendCancelRequestN.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageSendboxAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MessageSendboxAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Messages$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Messages$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Messages$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Messages$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Messages$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Messages$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Messages$AsyncCallWSSendMessage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Messages.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/MyAlarmManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/News$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/News$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/News.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/NewsAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/NewsAdapter$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/NewsAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/NewsAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/NotificationClass.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/OnePicImageAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/OnePicImageAdapterFromDb.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/OnePicImageAdapterFromDbNew.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersianReshape.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo$AsyncCallWSEditPersonalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo$AsyncCallWSPersonalPic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PersonalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGallery$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGallery$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGallery.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGalleryGuest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGalleryGuest$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGalleryGuest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGalleryLvl1Adapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGalleryLvl1Adapter$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGalleryLvl1Adapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PicGalleryLvl1Adapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Projects$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Projects$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/Projects.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ProjectsAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ProjectsAdapter$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ProjectsAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ProjectsAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PublicFunction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/PublicVariable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R$Style.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R$color.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R$dimen.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R$menu.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShareSalesAndBuyAdapter$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShareSalesAndBuyAdapter$1$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShareSalesAndBuyAdapter$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShareSalesAndBuyAdapter$AsyncCallWSSendCancelRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShareSalesAndBuyAdapter$ViewHolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShareSalesAndBuyAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SharesSalesAndBuy$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SharesSalesAndBuy$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SharesSalesAndBuy$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SharesSalesAndBuy$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SharesSalesAndBuy$AsyncCallWSSendBuyRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SharesSalesAndBuy$AsyncCallWSSendSaleRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SharesSalesAndBuy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowApartemanPlan$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowApartemanPlan$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowApartemanPlan.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneMessage$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneMessage$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneMessage$AsyncCallWSPersonalPic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneMessage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneNews$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneNews$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneNews.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneProjects$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneProjects$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/ShowOneProjects.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncAboutUs$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncAboutUs.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncAboutUsPicGetImage$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncAboutUsPicGetImage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncAparteman$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncAparteman.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncApartemanRequest$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncApartemanRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncBenefits$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncBenefits.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncBuyAndSellRequests$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncBuyAndSellRequests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncCityes$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncCityes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncFinancialls$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncFinancialls.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncGround$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncGround.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncGroundRequest$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncGroundRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncLastSharePriceUnRead$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncLastSharePriceUnRead.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncLastSharePrices$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncLastSharePrices.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncLawyers$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncLawyers.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncMessageInbox$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncMessageInbox.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncMessageInboxUnReadData$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncMessageInboxUnReadData.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncMessageSendbox$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncMessageSendbox.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncMessageUnRead$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncMessageUnRead.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncNews$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncNews.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncNewsPicGetImage$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncNewsPicGetImage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncNewsUnRead$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncNewsUnRead.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncPerosnalInfo$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncPerosnalInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncPersonalPic$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncPersonalPic.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncPicGalleryLvl1$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncPicGalleryLvl1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncPicGalleryLvl2$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncPicGalleryLvl2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncProjects$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncProjects.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncShareText$AsyncCallWS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/SyncShareText.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/TextJustifyUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/TextViewEx.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ShareHolders/com/example/shareholders/XmlToClassAttribHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dexedLibs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ksoap2_android_assembly_2_5_8_jar_with_dependencies.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShareHolders/ShareHolders.apk" afterPath="$PROJECT_DIR$/ShareHolders/ShareHolders.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShareHolders/assets/extenalDB.db" afterPath="$PROJECT_DIR$/ShareHolders/assets/extenalDB.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShareHolders/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/ShareHolders/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Messages.java" afterPath="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Messages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInbox.java" afterPath="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInbox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInboxUnReadData.java" afterPath="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInboxUnReadData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageSendbox.java" afterPath="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageSendbox.java" />
+    </list>
+    <ignored path="ShareHolders.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ShareHolders" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding>
+                <element signature="e#23403#23404#0" expanded="false" />
+                <element signature="e#23449#23450#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Messages.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Messages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4715447">
+              <caret line="725" column="53" selection-start-line="725" selection-start-column="53" selection-end-line="725" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncMessageInbox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInbox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncMessageInboxUnReadData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInboxUnReadData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SyncMessageSendbox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageSendbox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.982143">
+              <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="E:\morteza\Android Elahiye\ShareHolders\key2.jks" />
+    <option name="KEY_ALIAS" value="ٍElahiye" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="github" target-branch="master" />
+    </push-targets>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ShareHolders/bin/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/ShareHolders/gen/com/example/shareholders/BuildConfig.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/NotificationClass.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncAboutUs.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PublicFunction.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncNews.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AboutUs.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AboutUsFromUrl.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AboutUsGuest.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Aparteman.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/News.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PicGallery.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PicGalleryGuest.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Projects.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/ShowApartemanPlan.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/ShowOneNews.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/ShowOneProjects.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncApartemanPicGetImage.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncPersonalPic.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncPicGallery.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncPicGalleryGetImage.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncPicGalleryLvl1GetImage.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncPicGalleryLvl1.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncAparteman.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncPicGalleryLvl2.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncProjects.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncNewsPicGetImage.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PersonalInfo.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageUnRead.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/ShareHolders/res/layout/appm.xml" />
+        <option value="$PROJECT_DIR$/ShareHolders/res/layout/appmguest.xml" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncGroundRequest.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AppMenu.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Login.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Messages.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageSendbox.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInboxUnReadData.java" />
+        <option value="$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInbox.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shareholders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShareHolders" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="E:/Android2/sdk" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.typerenderers" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="device.picker.selection" value="Nexus_5X_API_23" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DEBUGGABLE_DEVICE" value="Nexus_5X_API_23 [emulator-5554]" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.shareholders" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31871837" />
+    <property name="ExportedModule" value="ShareHolders" />
+    <property name="ExportedApkPath" value="E:\morteza\Android Elahiye\ShareHolders\ShareHolders\ShareHolders.apk" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+  </component>
+  <component name="RunManager" selected="Android Application.ShareHolders">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Native>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Java />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Native>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Java />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShareHolders" type="AndroidRunConfigurationType" factoryName="Android Application" activateToolWindowBeforeRun="false">
+      <module name="ShareHolders" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <Native>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Native>
+      <Java />
+      <Hybrid>
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+      </Hybrid>
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.ShareHolders" />
+    </list>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6a95e70-862a-4cfb-b879-e49435cb5d3d" name="Default" comment="" />
+      <created>1472012937649</created>
+      <option name="number" value="Default" />
+      <updated>1472012937649</updated>
+    </task>
+    <task id="LOCAL-00001" summary="950607">
+      <created>1472366766924</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1472366766924</updated>
+    </task>
+    <task id="LOCAL-00002" summary="950607-1">
+      <created>1472415867255</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1472415867255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="950609">
+      <created>1472564447537</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1472564447537</updated>
+    </task>
+    <task id="LOCAL-00004" summary="950610">
+      <created>1472613325075</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1472613325075</updated>
+    </task>
+    <task id="LOCAL-00005" summary="950610-1">
+      <created>1472627003476</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1472627003476</updated>
+    </task>
+    <task id="LOCAL-00006" summary="950610-1">
+      <created>1472726950184</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1472726950184</updated>
+    </task>
+    <task id="LOCAL-00007" summary="950610-1">
+      <created>1472727712115</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1472727712115</updated>
+    </task>
+    <task id="LOCAL-00008" summary="950704">
+      <created>1474821102078</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1474821102078</updated>
+    </task>
+    <task id="LOCAL-00009" summary="950704">
+      <created>1478673915351</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1478673915351</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.16717096" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3931624" sideWeight="0.83282906" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36410257" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18835099" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44786325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48205128" sideWeight="0.7829047" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="950607" />
+    <MESSAGE value="950607-1" />
+    <MESSAGE value="950609" />
+    <MESSAGE value="950610" />
+    <MESSAGE value="950610-1" />
+    <MESSAGE value="950704" />
+    <option name="LAST_COMMIT_MESSAGE" value="950704" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PersonalInfo.java</url>
+          <line>442</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PicGallery.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PersonalInfo.java</url>
+          <line>468</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PersonalInfo.java</url>
+          <line>698</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PersonalInfo.java</url>
+          <line>765</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/MyAlarmManager.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AprGroRequestAdapter.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInboxUnReadData.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://E:/Android2/sdk/sources/android-21/android/content/ContextWrapper.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInbox.java</url>
+          <line>294</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInboxUnReadData.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInbox.java</url>
+          <line>196</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Messages.java</url>
+          <line>701</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInboxUnReadData.java</url>
+          <line>240</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInbox.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInboxUnReadData.java</url>
+          <line>249</line>
+          <properties />
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageSendbox.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="166" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="ShareHolders">
+        <watch expression="(i1+1) != (i2+1)" language="JAVA" custom="" />
+        <watch expression="Integer.getInteger(&quot;22&quot;)" language="JAVA" custom="" />
+        <watch expression="AllFields[0]" language="JAVA" custom="" />
+        <watch expression="&quot;insert into messages([id],senderId,receiverId,SenderName,sDate,type,title,body)&quot; + &#9;&#9;&#9;&#9;&#9;&#9;&#9;&quot; values(&quot; + AllFields[0].toString() + &quot;,&quot; + AllFields[1].toString() + &quot;,&quot; + AllFields[2].toString() + &#9;&#9;&#9;&#9;&#9;&#9;&#9;&quot;,'&quot; + AllFields[3].toString() + &quot;','&quot; + AllFields[4].toString() + &#9;&#9;&#9;&#9;&#9;&#9;&#9;&quot;','2','&quot; + AllFields[6].toString() + &quot;','&quot; + AllFields[7].toString() + &quot;')&quot;" language="JAVA" custom="" />
+        <watch expression="&quot;select [id] from messages where [id]=&quot;+id" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/TextViewEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncPersonalPic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.048295453">
+          <caret line="119" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/GoogleMapPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24147727">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AboutOwner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9204545">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AboutUs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19825073">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AboutUsFromUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19825073">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AboutUsGuest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19825073">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/DatabaseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5940593">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncPicGalleryLvl1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PersonalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3381925">
+          <caret line="749" column="25" selection-start-line="749" selection-start-column="25" selection-end-line="749" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncNewsPicGetImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17594256">
+          <caret line="188" column="0" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Android2/sdk/sources/android-21/android/app/AlarmManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33213645">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncLastSharePriceUnRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.714286">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncNewsUnRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="122" column="13" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/MyAlarmManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.071813285">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/res/layout/appmguest.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38541666">
+          <caret line="106" column="23" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/res/layout/appm.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3715278">
+          <caret line="188" column="41" selection-start-line="188" selection-start-column="41" selection-end-line="188" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/OnePicImageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/NewsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/GoogleMapPositionGuest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12208258">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PicGalleryGuest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/PersianReshape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Projects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36624774">
+          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/ProjectsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023339318">
+          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/GroundAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42897728">
+          <caret line="173" column="55" selection-start-line="173" selection-start-column="55" selection-end-line="173" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Ground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51704544">
+          <caret line="317" column="28" selection-start-line="317" selection-start-column="28" selection-end-line="317" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/ShareSalesAndBuyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2527473">
+          <caret line="122" column="44" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Android2/sdk/sources/android-21/android/content/DialogInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncGroundRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AprGroRequestAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Aparteman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="52" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/NotificationClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/.settings/org.eclipse.core.resources.prefs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageUnRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="171" column="28" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/MessageInboxAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="4" selection-start-line="123" selection-start-column="4" selection-end-line="123" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/MessageSendboxAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Android2/sdk/sources/android-21/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2673993">
+          <caret line="147" column="63" selection-start-line="147" selection-start-column="63" selection-end-line="147" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ShareHolders/lib/ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar!/org/ksoap2/transport/Transport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/ShareHolders/lib/ksoap2-android-assembly-2.5.8-jar-with-dependencies.jar!/org/ksoap2/transport/HttpTransportSE.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7584906">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12806027">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/res/layout/about_owner.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/ShowOneMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6929982">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/ChangePass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1875">
+          <caret line="242" column="71" selection-start-line="242" selection-start-column="71" selection-end-line="242" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Android2/sdk/sources/android-21/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.556553">
+          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="e#23403#23404#0" expanded="false" />
+            <element signature="e#23449#23450#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/AppMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05762712">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInboxUnReadData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageInbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/SyncMessageSendbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.982143">
+          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShareHolders/src/com/example/shareholders/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4715447">
+          <caret line="725" column="53" selection-start-line="725" selection-start-column="53" selection-end-line="725" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31871837" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (ShareHolders)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31871837" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31871837" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 21 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31871837" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ShareHolders</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31871837" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 24 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31871837" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31871837" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

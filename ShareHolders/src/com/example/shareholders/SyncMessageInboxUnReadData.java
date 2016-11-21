@@ -220,8 +220,22 @@ public class SyncMessageInboxUnReadData {
 	    	e.printStackTrace();
 	    }
 	}
-	
-	
+
+
+	public boolean CheckID(int id)
+	{
+		SQLiteDatabase db1 = dbh.getReadableDatabase();
+		Cursor cursors = db1.rawQuery("select id from messages where id="+id, null);
+		if(cursors.getCount() > 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
 	public void InsertDataFromWsToDb(String AllRecord)
     {
         String[] CuAllRecord = AllRecord.split(Pattern.quote(PV.RECORD_SPLITTER));
@@ -229,13 +243,13 @@ public class SyncMessageInboxUnReadData {
         String[] AllFields;   
         int NewNewMessCount=0;
         int BitTypeForInsert = 0;
+		db = dbh.getWritableDatabase();
         for(int i = 0 ; i < CuAllRecord.length;i++)
         {
             AllFields = CuAllRecord[i].split(Pattern.quote(PV.FIELD_SPLITTER));
-            if(AllFields.length > 0)
+            if(AllFields.length > 0 && !CheckID(Integer.parseInt(AllFields[0].toString())))
             {
-            	db = dbh.getWritableDatabase();
-            	
+
             	if(AllFields[8].toString().compareTo("False")==0)
             	{
             		NewNewMessCount=NewNewMessCount+1;

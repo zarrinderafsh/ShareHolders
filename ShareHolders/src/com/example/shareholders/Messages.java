@@ -675,6 +675,8 @@ public class Messages extends Activity {
    				receiverId = cursors.getString(cursors.getColumnIndex("SenderName"));
    				sDate = cursors.getString(cursors.getColumnIndex("sDate"));
    				title = cursors.getString(cursors.getColumnIndex("title"));
+
+
    				map.put("id", id);
    				map.put("receiverId", receiverId);
    				map.put("sDate", sDate);
@@ -692,8 +694,27 @@ public class Messages extends Activity {
    		}
 
    	}
-    
-    
+
+
+	public boolean CheckID(int id)
+	{
+
+		db = dbh.getReadableDatabase();
+		Cursor cursors = db.rawQuery("select id from messages where id="+id, null);
+
+		if(cursors.getCount() > 0)
+		{
+			db.close();
+			return true;
+		}
+		else
+		{
+			db.close();
+			return false;
+		}
+
+	}
+
     private void FillDataInbox()
    	{
    		

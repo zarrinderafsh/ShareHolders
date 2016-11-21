@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/android-support-v4-b284fb494b9487fccd4a3ccc821efcb6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/ksoap2-android-assembly-2.5.8-jar-with-dependencies-4cfef022301d75402c43dbbaebf61a67.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/ksoap2-android-assembly-2.5.8-jar-with-dependencies-89e36ef8efe75136fa1b5b9ce5625440.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/android-support-v4-0defe6c3cf17c0b0c666117c9999260e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/android-support-v4-51f379d1b445b1b8cd01cbea111f9581.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/ksoap2-android-assembly-2.5.8-jar-with-dependencies-fca48041972706b5e2873174906e5a12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/android-support-v4-3283bd9bbb80db80fe10f46133036b3b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/ksoap2-android-assembly-2.5.8-jar-with-dependencies-ad71f41114f1c9b799d5b40fd54743c9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/android-support-v4-9ec47d0d4fa46315aa717a1fcf8327f7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ShareHolders/bin/dexedLibs/ksoap2-android-assembly-2.5.8-jar-with-dependencies-82f5d5fa1e08d0fea6e284308e972187.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
